@@ -1,0 +1,61 @@
+.menu3{
+    background: rgb(29, 19, 21);
+    color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 6px;
+   
+}
+#nav{
+    font-size: 20px;
+    text-align: center;
+}
+#menu1{
+    background: rebeccapurple;
+    color: goldenrod;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 6px;
+}
+#menu2{
+    background-color: rgb(69, 43, 82);
+    color: goldenrod;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 6px;
+}
+#menu4{
+    background-color: rgb(40, 69, 74);
+    color: goldenrod;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 6px;
+}
+
+#indian{
+     background-color: rgb(1, 56, 3);
+    color: goldenrod;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 6px;
+}
+
+#japan{
+    background-color: rgb(1, 35, 69);
+    color: goldenrod;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 7px;
+}
