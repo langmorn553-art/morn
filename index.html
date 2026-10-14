@@ -3,122 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first menu</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Browse the Morn restaurant menu, including drinks, fast food, noodles, and international favorites.">
+    <title>Neil Restaurant | Menu</title>
 </head>
 <body>
-    <h1 align="center">RESTAURENT</h1>
-    <h2 align="center">THIS IS MY FIRST PROJECT </h2>
+    <header id="top">
+        <p><a href="#top"><strong>Neil RESTAURANT</strong></a></p>
+        <nav aria-label="Main navigation">
+            <a href="#menu">Menu</a> |
+            <a href="#about">About</a>
+        </nav>
+        <h1>A little something for everyone.</h1>
+        <p>Drinks, comfort food, and flavors from around the world. Pick what sounds good.</p>
+        <p><a href="#menu">Explore the menu</a></p>
+    </header>
 
-    <nav id="nav">
-        <a href="#contact">contact us </a>
-        <a href="^^">Review</a>
-        <a href="^^">About</a>
-    </nav>
-<hr>
+    <main>
+        <section id="menu" aria-labelledby="menu-title">
+            <h2 id="menu-title">The menu</h2>
+            <p>Select any items you like. Use the clear button to start over.</p> 
 
-    <h2 align="center">DRINK</h2>
+            <form>
+                <fieldset id="drinks">
+                    <legend>Drinks</legend>
+                    <p><label><input type="checkbox" name="items" value="Coffee"> Coffee</label></p>
+                    <p><label><input type="checkbox" name="items" value="Green tea"> Green tea</label></p>
+                    <p><label><input type="checkbox" name="items" value="Fresh milk"> Fresh milk</label></p>
+                    <p><label><input type="checkbox" name="items" value="Coke"> Coke</label></p>
+                    <p><label><input type="checkbox" name="items" value="Milk tea"> Milk tea</label></p>
+                    <p><label><input type="checkbox" name="items" value="Hot coffee"> Hot coffee</label></p>
+                    <p><label><input type="checkbox" name="items" value="Coconut"> Coconut</label></p>
+                    <p><label><input type="checkbox" name="items" value="Sting"> Sting</label></p>
+                    <p><label><input type="checkbox" name="items" value="Mocha"> Mocha</label></p>
+                    <p><label><input type="checkbox" name="items" value="Orange juice"> Orange juice</label></p>
+                    <p><label><input type="checkbox" name="items" value="Vanilla latte"> Vanilla latte</label></p>
+                    <p><label><input type="checkbox" name="items" value="Americano"> Americano</label></p>
+                    <p><label><input type="checkbox" name="items" value="Coconut coffee"> Coconut coffee</label></p>
+                    <p><label><input type="checkbox" name="items" value="Classic iced coffee"> Classic iced coffee</label></p>
+                </fieldset>
 
-    <div id="menu1">
+                <fieldset id="favorites">
+                    <legend>Popular favorites</legend>
+                    <p><label><input type="checkbox" name="items" value="Chicken BBQ pizza"> Chicken BBQ pizza — $4</label></p>
+                    <p><label><input type="checkbox" name="items" value="Seafood pizza"> Seafood pizza — $5</label></p>
+                    <p><label><input type="checkbox" name="items" value="Creamy chicken pasta"> Creamy chicken pasta — $2</label></p>
+                    <p><label><input type="checkbox" name="items" value="Spicati"> Spicati — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Pizza"> Pizza — $5</label></p>
+                    <p><label><input type="checkbox" name="items" value="Garlic shrimp pasta"> Garlic shrimp pasta — $6</label></p>
+                    <p><label><input type="checkbox" name="items" value="Carbonara pasta"> Carbonara pasta — $4</label></p>
+                </fieldset>
 
-    <input type="checkbox" name="coffe"> Coffe
-    <input type="checkbox" name="coffe"> Green Tea 
-    <input type="checkbox" name="coffe"> Fresh Milk
-    <input type="checkbox" name="coffe"> Coke
-    <input type="checkbox" name="coffe"> Milk tea
-    <input type="checkbox" name="coffe"> Hot coffee
-    <input type="checkbox" name="coffe">Coconut
-    <input type="checkbox" name="coffe"> Sting
-    <input type="checkbox" name="coffe"> Mocha
-    <input type="checkbox" name="coffe"> Orange juice
-    <input type="checkbox" name="coffe"> vanila latte
-    <input type="checkbox" name="coffe"> American
-    <input type="checkbox" name="coffe"> Coconut Coffe
-    <input type="checkbox" name="coffe"> classic iced coffe
-    <input type="checkbox" name="coffe"> hot coffe
-    <input type="checkbox" name="coffe"> classic iced coffe
-    <input type="checkbox" name="coffe"> classic iced coffe
-    <input type="checkbox" name="coffe"> classic iced coffe
-    
-    <br>
-    <hr>
-     </div>
-    <br>
+                <fieldset id="fast-food">
+                    <legend>Fast food</legend>
+                    <p><label><input type="checkbox" name="items" value="Classic cheeseburger"> Classic cheeseburger — $5.90</label></p>
+                    <p><label><input type="checkbox" name="items" value="Crispy chicken burger"> Crispy chicken burger — $5.49</label></p>
+                    <p><label><input type="checkbox" name="items" value="Chicken wings"> Chicken wings — $4.90</label></p>
+                    <p><label><input type="checkbox" name="items" value="French fries"> French fries — $2.90</label></p>
+                    <p><label><input type="checkbox" name="items" value="Chicken nuggets"> Chicken nuggets — $3.90</label></p>
+                    <p><label><input type="checkbox" name="items" value="Cola"> Cola — $1.90</label></p>
+                </fieldset>
 
-   <h2 align="center">POLULAR FAVORITES</h2>
+                <fieldset id="noodles">
+                    <legend>Noodles</legend>
+                    <p><label><input type="checkbox" name="items" value="Chicken noodle soup"> Chicken noodle soup — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Beef noodle soup"> Beef noodle soup — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Stir-fried noodles"> Stir-fried noodles — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Chicken chow mein"> Chicken chow mein — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Garlic noodles"> Garlic noodles — $3</label></p>
+                </fieldset>
 
-   <div id="menu2">
+                <fieldset id="indian">
+                    <legend>Indian food</legend>
+                    <p><label><input type="checkbox" name="items" value="Butter chicken"> Butter chicken — $5</label></p>
+                    <p><label><input type="checkbox" name="items" value="Chicken biryani"> Chicken biryani — $2</label></p>
+                    <p><label><input type="checkbox" name="items" value="Mutton biryani"> Mutton biryani — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Chicken tikka masala"> Chicken tikka masala — $4</label></p>
+                    <p><label><input type="checkbox" name="items" value="Aloo gobi"> Aloo gobi — $4</label></p>
+                    <p><label><input type="checkbox" name="items" value="Dal tadka"> Dal tadka — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Samosa"> Samosa — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Pakora"> Pakora — $3</label></p>
+                    <p><label><input type="checkbox" name="items" value="Pani"> Pani — $2</label></p>
+                </fieldset>
 
-    <input type="checkbox" name="food"> Chicken BBQ pizza-4$
-    <input type="checkbox" name="yam"> Seafood pizza-5$
-    <input type="checkbox" name="rice"> creamy chicken pasta2$
-    <input type="checkbox" name="spicy"> spicati-3$
-    <input type="checkbox" name="pizza"> Pizza-5$
-    <input type="checkbox" name="meat"> garlic shrimp pasta-6$
-    <input type="checkbox" name="nodle"> carbonara pasta-4$
-    <hr>
-    </form>
-    <br>
-    </div>
+                <fieldset id="japanese">
+                    <legend>Japanese food</legend>
+                    <p><label><input type="checkbox" name="items" value="Sushi"> Sushi — $10</label></p>
+                    <p><label><input type="checkbox" name="items" value="Sashimi"> Sashimi — $12</label></p>
+                    <p><label><input type="checkbox" name="items" value="Ramen"> Ramen — $10</label></p>
+                    <p><label><input type="checkbox" name="items" value="Tempura"> Tempura — $10</label></p>
+                    <p><label><input type="checkbox" name="items" value="Chicken katsu"> Chicken katsu — $10</label></p>
+                    <p><label><input type="checkbox" name="items" value="Yakitori"> Yakitori — $10</label></p>
+                    <p><label><input type="checkbox" name="items" value="Gyoza"> Gyoza — $10</label></p>
+                    <p><label><input type="checkbox" name="items" value="Miso soup"> Miso soup — $10</label></p>
+                    <p><label><input type="checkbox" name="items" value="Japanese curry"> Japanese curry — $10</label></p>
+                    <p><label><input type="checkbox" name="items" value="Grap"> Grap</label></p>
+                    <p><label><input type="checkbox" name="items" value="Snail"> Snail</label></p>
+                    <p><label><input type="checkbox" name="items" value="Fried fish"> Fried fish</label></p>
+                    <p><label><input type="checkbox" name="items" value="Oysterin"> Oysterin</label></p>
+                </fieldset>
 
-      <h2 align="center">FAST FOOD MENU</h2>
-    <div id="menu3">
-        <input type="checkbox" name="menu">Classic Chesesburger-$5.90    
-        <input type="checkbox" name="menu">Crispy chicken burger-$5.49
-        <input type="checkbox" name="menu">chicken wings-$4.90 
-        <input type="checkbox" name="menu">french fries-$2.90 
-        <input type="checkbox" name="menu">Chicken Nuggets-$3.90 
-        <input type="checkbox" name="menu">cola-$1.90     
-        <hr>
-    </div>
-    <hr>
-    <br>
-    <h2 align="center">NOODLES</h2>
-    <div id="menu4">
-        <input type="checkbox" name="menu"> chicken noodle soup 3$
-        <input type="checkbox" name="menu"> beef noodles soup 3$
-        <input type="checkbox" name="menu">  stri-fried noodles3$
-        <input type="checkbox" name="menu"> chicken chow mein 3$
-        <input type="checkbox" name="menu"> garlic noodle 3$
-        <input type="checkbox" name="menu"> chicken noodle soup 3$
-    </div>
-    <hr>
-    <br>
-    <h2 align=center>INDIAN FOOD</h2>
-    <div id="indian">
-        <input type="checkbox" name="indian">butter chicken-5$
-        <input type="checkbox" name="indian">Chicken biryani-2$
-        <input type="checkbox" name="indian"> Mutton biryani-3$
-        <input type="checkbox" name="indian">chicken tikka masala-4$
-        <input type="checkbox" name="indian">Aloo gobi-4$
-        <input type="checkbox" name="indian">Dal tadka-3$
-        <input type="checkbox" name="indian">Samosa-3$
-        <input type="checkbox" name="indian">Pakora-3$
-        <input type="checkbox" name="indian">Pani-2$
-    </div>
-    <hr>
-    <br>
-    <h2 align="center">JAPAN FOOD</h2>
-    <div id="japan">
-        <input type="checkbox" name="janpanfood">Sushi-10$
-        <input type="checkbox" name="janpanfood">sashimi-12$
-        <input type="checkbox" name="janpanfood">Ramen-10$
-        <input type="checkbox" name="janpanfood">Tempura-10$
-        <input type="checkbox" name="janpanfood">Chicken katsu-10$
-        <input type="checkbox" name="janpanfood">yakitori-10$
-        <input type="checkbox" name="janpanfood">Gyoza-10$
-        <input type="checkbox" name="janpanfood">Miso soup-10$
-        <input type="checkbox" name="janpanfood">japan curry-10$
-        <input type="checkbox" name="janpanfood"> Grap
-        <input type="checkbox" name="janpanfood"> Snail
-        <input type="checkbox" name="janpanfood"> fired fish
-         <input type="checkbox" name="janpanfood"> oyster
-    </div>
-    
-    <form>
-        <input type="reset">
-        <button>Submit</button>
-    </form>
-    
+                <p>
+                    <button type="reset">Clear selections</button>
+                </p>
+            </form>
+        </section>
+
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">Your table, your choice.</h2>
+            <p>Explore familiar favorites and discover something new. Thanks for stopping by Morn.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="#top">Neil Restaurant</a> — Good food, good mood.</p>
+    </footer>
 </body>
 </html>
+ 
